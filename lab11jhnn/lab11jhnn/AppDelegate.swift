@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  lab11jhnn
-//
-//  Created by Tecsup on 25/05/26.
-//
-
 import UIKit
 import CoreData
 

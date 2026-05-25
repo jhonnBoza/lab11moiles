@@ -13,7 +13,7 @@ Si ya ejecutaste la app antes y no ves datos: en el simulador borra la app (**lo
 | Actividad | Pantalla | Tecnología |
 |-----------|----------|------------|
 | **01** Contactos | Lista + alerta Agregar Contacto | UIKit + Core Data |
-| **02** Alumnos | Lista, detalle, Nuevo Alumno | SwiftUI + SwiftData |
+| **02** Alumnos | Lista, detalle, Nuevo Alumno | SwiftUI + SwiftData → **`acct2/`** |
 | **03** Productos | CRUD + imagen opcional | SwiftUI + SwiftData |
 
 ## Estructura del código (monorepo)
@@ -22,14 +22,20 @@ Si ya ejecutaste la app antes y no ves datos: en el simulador borra la app (**lo
 lab11jhnn/
 ├── DashboardViewController.swift    ← menú inicial
 ├── ContactosViewController.swift    ← Actividad 01
-├── Actividad02/                     ← Alumnos (SwiftData)
+├── Actividad02/                     ← (referencia; usar acct2/)
 ├── Actividad03/                     ← Productos (SwiftData)
 └── lab11jhnn.xcdatamodeld           ← solo entidad Contacto
 ```
 
-## Proyectos antiguos (opcionales)
+## Actividad 02 (proyecto aparte)
 
-`Semana11SwiftUI/` y `ProductosLab/` quedaron como referencia; **ya no hace falta abrirlos** — todo está integrado en `lab11jhnn`.
+```
+acct2/labb11jhnn/labb11jhnn.xcodeproj
+```
+
+## Otros (opcionales)
+
+`Semana11SwiftUI/` y `ProductosLab/` son referencia antigua.
 
 ## Capturas para el informe
 

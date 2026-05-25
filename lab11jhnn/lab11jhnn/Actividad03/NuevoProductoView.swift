@@ -2,7 +2,6 @@ import SwiftUI
 import SwiftData
 import PhotosUI
 
-/// Identifica si el formulario es alta o edición (evita sheets vacíos al reutilizar la vista).
 enum ProductoFormularioModo: Identifiable {
     case nuevo
     case editar(Producto)
